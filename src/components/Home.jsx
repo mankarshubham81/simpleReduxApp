@@ -27,7 +27,7 @@ export default function Home({value}) {
 
   return (
     <div>
-        <input type="text" onChange={(e) => (setUserValue(e.target.value)) } placeholder='Enter a value' />
+        <input type="text" onChange={(e) => (setUserValue(e.target.value)) } placeholder='Enter a Integer' />
         <h2>Child Component value : {myValue}</h2>
         <button onClick={addBtn}>Increment</button>
         <button onClick={add5Btn}>Increment By Input</button>
